@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "van 't Ooster"
+  given-names: "Peter"
+title: "ValidSense"
+abstract: "Introduction:
+  The vital sign devices market is flooded with devices that are not adequately validated, leading to potential inaccuracies in the readings and posing a significant risk to patient safety. The Limits of Agreement (LoA) analysis is the preferred methodology but can be complicated for manufacturers and researchers, as statistical expertise and programming skills are required.
+  Methods:
+  We developed an open-source ValidSense toolbox, with correct statistical methods to assess the agreement between two devices using a Python package supplemented with a user-friendly graphical user interface. In addition, we developed a longitudinal analysis to assess the agreement over time. Moreover, we performed a validation study of a wearable continuous cuff-based BP device using the IEEE Standard for Wearable, Cuffless Blood Pressure Measuring Devices [1,2].
+  Results:
+  The toolbox includes four existing LoA analyses to allow for the correction of multiple measurements per subject (clustering) or non-constant agreement over the measurement range. These four LoA analyses are correctly implemented in the toolbox. A simulation study showed that a newly developed longitudinal analysis allows for detecting non-constant agreement over time (such as a sensor or patient drift). Validation of the BP device fails the IEEE standard for the SBP measurements but passes for the DBP measurements. LoA analysis revealed a bias (95% LoA) of 0.7 (-4.8 to 6.2) mmHg for static SBP measurements and 2.8 (-10.2 to 15.8) mmHg for induced SBP measurements.
+  Discussion:
+  The ValidSense toolbox guides the user through the four LoA analyses and newly developed longitudinal analysis. The toolbox is easily accessible and allows for reliable LoA analysis without requiring high-level statical knowledge of programming skills. Further research is needed to improve the longitudinal analysis and show the benefits of the longitudinal analysis in a real-world setting. The validation study of the BP device fails the IEEE standard for the SBP measurements but passes for the DBP measurements. Further improvement of the SBP algorithm is needed for reliable measurements in clinical usage."
+version: 1.0
+date-released: 2023-05-11
+url: "https://github.com/petervtooster/ValidSense"
