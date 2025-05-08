@@ -254,7 +254,7 @@ except:
 st.write(
     """
     \nVersion ValidSense: 1.0.1 (2 May 2025)
-    \nSource code: [Github](https://github.com/petervtooster/ValidSense)
+    \nSource code: [Github](https://github.com/umcu/ValidSense)
     \nExplanation: [Validation of Vital Sign Monitoring Devices - University of Twente Student Theses](https://essay.utwente.nl/94905/)
     """
 )
