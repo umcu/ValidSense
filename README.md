@@ -9,20 +9,20 @@ Moreover, a Longitudinal analysis is developed to assess agreement over time.
 
 ## Requirements
 - Anaconda (you may install Anaconda by downloading the installer from https://www.anaconda.com/download and running it on your computer).
-- Python version 3.11.11
+- Python version 3.13.2 is assumed to be available in the installation process. The Python package versions in the requirements.txt file have been tested to work for Python 3.12 as well. If these are not available in your environment, and you run into problems when using a different Python version, you might try to install after removing the versions from the requirements.txt file. 
 
 
 ## Installation process
 To run ValidSense: 
-- Clone or copy the ValidSense repository to your computer
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [download](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) and unzip the ValidSense repository to your computer 
 - Open the Anaconda prompt on Windows, or your built-in command line application on Mac or Linux
-- change to the ValidSense folder, where the requirement.txt and 📄_Introduction.py files are (fill in the folder name in \<ValidSense folder\>)  
+- change to the cloned or downloaded ValidSense folder, where the requirement.txt and 📄_Introduction.py files are (fill in the folder name in \<ValidSense folder\>)  
   `cd <ValidSense folder>`
 - You probably want to create a separate environment for ValidSense (fill in a name for your environment in \<ENV-NAME\>):   
   `conda create --name <ENV-NAME>`  
   `conda activate <ENV-NAME>`
 - Install required software and versions  
-  `conda install python==3.13.2`
+  `conda install python==3.13.2`  
   `pip install -r requirements.txt`
 - Start ValidSense, this opens a webpage in your browser for the ValidSense application  
   `streamlit run 📄_Introduction.py`
