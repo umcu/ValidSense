@@ -9,7 +9,7 @@ Moreover, a Longitudinal analysis is developed to assess agreement over time.
 
 ## Requirements
 - Anaconda (you may install Anaconda by downloading the installer from https://www.anaconda.com/download and running it on your computer).
-- Python version 3.11.11
+- Python version 3.13.2
 
 
 ## Installation process
