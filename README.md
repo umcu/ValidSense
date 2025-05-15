@@ -80,7 +80,7 @@ a cooperation between University of Twente and UMC Utrecht:
 author = {van 't Ooster, Peter},
 month = may,
 title = {{ValidSense}},
-url = {https://github.com/petervtooster/ValidSense},
+url = {https://github.com/umcu/ValidSense},
 version = {1.0},
 year = {2023}
 }
