@@ -14,4 +14,4 @@ abstract: "Introduction:
   The ValidSense toolbox guides the user through the four LoA analyses and newly developed longitudinal analysis. The toolbox is easily accessible and allows for reliable LoA analysis without requiring high-level statical knowledge of programming skills. Further research is needed to improve the longitudinal analysis and show the benefits of the longitudinal analysis in a real-world setting. The validation study of the BP device fails the IEEE standard for the SBP measurements but passes for the DBP measurements. Further improvement of the SBP algorithm is needed for reliable measurements in clinical usage."
 version: 1.0
 date-released: 2023-05-11
-url: "https://github.com/petervtooster/ValidSense"
+url: "https://github.com/umcu/ValidSense"
