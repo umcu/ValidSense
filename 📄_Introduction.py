@@ -239,7 +239,7 @@ with st.expander("**Is the toolbox modular built?**"):
     st.write(
         """
         We built the toolbox modular in Python to allow for adaptation and allow the use of the user's software. 
-        The source information is on [GitHub](https://github.com/petervtooster/ValidSense).
+        The source information is on [GitHub](https://github.com/umcu/ValidSense).
         """
     )
 
